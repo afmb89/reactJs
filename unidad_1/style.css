@@ -1,0 +1,28 @@
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: left;
+}
+input {
+  display: inline-block;
+  float: left;
+}
+
+button{
+    display: inline-block;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.button-enviar{
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 50px;
+    width:100%;
+}

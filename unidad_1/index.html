@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" href="script.js"></script>
 </head>
 <body>
     <h1>Bienvenidos!!!</h1>
@@ -30,14 +32,19 @@
         <input type = "number"/>
       </div>
       <div>
-        <select>
-            <option>Tipo Seguro: </option>
-            <option>Basico</option>
-            <option>Intermedio</option>
-            <option>Premium</option>
-        </select>
+        <label>
+            <select>
+                <option>Tipo Seguro: </option>
+                <option>Basico</option>
+                <option>Intermedio</option>
+                <option>Premium</option>
+            </select>
+        </label>
+        <input type="text" disabled/>  
       </div>
-      <input type="button" class="button-enviar"/>
+      <label class="button-enviar">
+        <button value="Enviar" onclick="saludar()">Enviar información</button>
+      </label> 
     </form>
 </body>
 </html>
