@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>    
 </head>
 <body>
     <h1>Bienvenidos!!!</h1>
     <h2>Por favor complete el formulario y será contactado por alguno de nuestros representantes</h2>
-    <form>
+    <form class="form-seguros">
       <div>
         <label>Nombre: </label>
         <input type = "text"/>
@@ -33,17 +33,17 @@
       </div>
       <div>
         <label>
-            <select>
-                <option>Tipo Seguro: </option>
-                <option>Basico</option>
-                <option>Intermedio</option>
-                <option>Premium</option>
+            <select id="tipo-seguro" onchange="elegir();">
+                <option value="0">--Tipo Seguro--</option>
+                <option value="$500">Basico</option>
+                <option value="$1000">Intermedio</option>
+                <option value="$1500">Premium</option>
             </select>
         </label>
-        <input type="text" disabled/>  
+        <input type="text" disabled id="tipo-seguro-valor"/>  
       </div>
       <label class="button-enviar">
-        <button value="Enviar" onclick="saludar()">Enviar información</button>
+        <button value="Enviar" class="saludar" onclick="saludar();">Enviar información</button>
       </label> 
     </form>
 </body>
