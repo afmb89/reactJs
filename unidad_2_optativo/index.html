@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
     <title>Calculadora</title>
 </head>
 <body>
@@ -15,14 +14,13 @@
     <label>Valor 2:</label>
     <input type="number" id="operador2"/><br>
     <label>Resultado:</label>
-    <input type="number" id="resultado"/>
+    <input type="number" id="resultado" disabled/>
     <div class="operaciones">
         <button onclick="suma();" id="suma" value="+">+</button>
         <button onclick="resta();" id="resta" value="-">-</button>
         <button onclick="multiplicar();" id="multiplicar" value="x">x</button>
-        <button onclick="dividir();" id="dividir" value="÷">÷</button>
-        <button onclick="calcular();" id="calcular" value="Calcular">Calcular</button>
-        <button onclick="borrar();" id="borrar" value="Borrar">Borrar</button>   
+        <button onclick="dividir();" id="dividir" value="÷">÷</button>        
+        <button onclick="borrar();"id="borrar" value="Borrar">Borrar</button>   
     </div>
 </body>
 </html>
