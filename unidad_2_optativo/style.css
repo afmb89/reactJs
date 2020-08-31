@@ -10,8 +10,8 @@ label{
   display: inline-block;
   float: left;
 }
-
-.operaciones{
+.operaciones , 
+.valores{
     display: inline-block;
     padding-top: 5px;
     padding-left: 20px;
