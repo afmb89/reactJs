@@ -2,22 +2,26 @@ label{
     display: inline-block;
     float: left;
     clear: left;
-    width: 70px;
+    width: 75px;
     text-align: left;
+    padding-bottom: 10px;
 }
 #operador1,#operador2,#resultado {
   display: inline-block;
   float: left;
 }
 
-#operaciones{
-    display: inline-block; 
-    padding-top: 15px;    
-    width:10%;
+.operaciones{
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 20px;
+    width:100%;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
-  margin: 0; 
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
